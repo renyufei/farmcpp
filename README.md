@@ -1,4 +1,8 @@
-farmcpp
-=======
+c++11
 
-CPP learning
+-std=c++0x
+
+-Wall
+
+
+

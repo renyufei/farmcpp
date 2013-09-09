@@ -1,12 +1,6 @@
 CPPFLAGS= -std=c++0x -Wall
 
-PROGS = hello
-
-SOURCE := ch1/hello.cc
-
-OBJS = $(SOURCE:.cc=.o)
-
-DIRS = ch1
+DIRS = ch1 ch2
 
 all: 
 	for i in $(DIRS); do \

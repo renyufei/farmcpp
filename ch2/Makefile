@@ -2,11 +2,13 @@ ROOT=..
 EXTRALIBS=
 include $(ROOT)/Make.defines
 
-PROGS= myref
+PROGS= myref unsigned-test toplowconst
 
 all: $(PROGS)
 
 myref: myref.cc
+unsigned-test: unsigned-test.cc
+toplowconst: toplowconst.cc
 
 
 $(PROGS):

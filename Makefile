@@ -1,6 +1,6 @@
 CPPFLAGS= -std=c++0x -Wall
 
-DIRS = ch1 ch2
+DIRS = ch1 ch2 ch3
 
 all: 
 	for i in $(DIRS); do \

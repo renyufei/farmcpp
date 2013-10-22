@@ -2,7 +2,8 @@ ROOT=..
 EXTRALIBS=
 include $(ROOT)/Make.defines
 
-PROGS= using s1 word mygetline stringlen newfor upperstr hex v1
+PROGS= using s1 word mygetline stringlen newfor upperstr hex v1 \
+	arraybegend
 
 all: $(PROGS)
 
@@ -15,6 +16,7 @@ newfor: newfor.cc
 upperstr: upperstr.cc
 hex: hex.cc
 v1: v1.cc
+arraybegend: arraybegend.cc
 
 $(PROGS):
 	$(CC) $(CPPFLAGS) $@.cc -o $@ $(LDFLAGS) $(LDLIBS)

@@ -3,7 +3,8 @@ EXTRALIBS=
 include $(ROOT)/Make.defines
 
 PROGS= using s1 word mygetline stringlen newfor upperstr hex v1 \
-	arraybegend itercapstr binsearch formula test strempty
+	arraybegend itercapstr binsearch formula test strempty \
+	multirow
 
 all: $(PROGS)
 

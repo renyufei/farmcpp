@@ -4,7 +4,7 @@ include $(ROOT)/Make.defines
 
 PROGS= using s1 word mygetline stringlen newfor upperstr hex v1 \
 	arraybegend itercapstr binsearch formula test strempty \
-	beginend
+	beginend multirow
 
 all: $(PROGS)
 
